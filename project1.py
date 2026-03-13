@@ -1,0 +1,8 @@
+name = input("what is your name ")
+print(f"hello {name} ")
+input("")
+print("my name is {timmybot2.0py}" )
+subject=input("what is your favorite class that is not P.E ")
+print(f"i like {subject} to")
+input("")
+print("my favorite class is P.E though")
