@@ -29,7 +29,7 @@ for i in range(30):
     x1 += random.choice([1,0,0,0,50])
     x2 += random.choice([5,0,0,0,50])   
     x3 += random.randint(20,29)
-    x4 += random.choice([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,600])
+    x4 += random.choice([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,250])
 # technically it x4 would be the fastest if it is lucky but it is a 1 in 31 chance so probably x3
     t1.goto(x1, y1)
     t2.goto(x2, y2)
