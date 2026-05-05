@@ -1,7 +1,7 @@
 import random
 
 # Pick a word at random
-word_list = ["rainy","tommy","audio","laugh","trial","drive","tests","sails"]
+word_list = ["rainy","tommy","audio","laugh","trial","drive","tests","sails","build","break","smile","funny","train"]
 hidden_word = random.choice(word_list)
 
 print("WORDLE:")
