@@ -45,8 +45,14 @@ for i in range(1000000000):
 
     # OPTIONAL - use the message sprite to say a message
     m1.clear()
-    m1.write (f"you have {warehouse} warehouses,you have {money} money")
-
+    m1.write (f"you have {warehouse} warehouses,you have {money} money", font = ("arial", 20, "normal"))
+    
+    if money > 50000:
+        window.update()
+        m1.write("YOU WIN", font = ("arial", 40, "normal" ))
+        
+        time.sleep(5000000000.0)
+    
     time.sleep(0.01)
     window.update()
     #the goal of the game is to get to 50,000 money
